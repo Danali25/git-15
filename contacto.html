@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Contactame para más información</title>
+    <meta name="keywords" content="contacto, diseño grafico, marketing digital, diseño web, diseño ux/ui">
+    <meta name="description" content="En está sección, me pueden contactar para preguntarme sobre presupuestos, 
+    cualquier duda que tengan sobre los temas y/o sugerencias que quieran hacer. "> 
+</head>
+<body>
+    <header>
+
+        <!--- Logo a la izquierda --->
+<a href="index.html"><img width="150px" height="150px" src="imagenes/logo_labcreativo.png" alt="labcreativo" id="arriba"/>
+
+        <!---  menu a la derecha -->
+        <div class="fixed">
+            <ul class="Lista">
+                <li class="Nada li"><a href="sobre mi.html" class="Menu"> Sobre mí</a></li>
+
+                <li class="Nada Menu li"><a href="servicios.html" class="Menu">Servicios</a>
+
+                        <ul>
+                            <li class=" SubMenu li"> Diseño UX/UI</li>
+                            <li class="SubMenu li"> Diseño gráfico</li>
+                            <li class=" SubMenu li"> Marketing Digital</li>
+                            <li class=" SubMenu li"> Desarrollo Web</li>
+                        </ul>
+                </li>
+                <li class="Nada li"><a href="colaboraciones.html" class="Menu">Colaboraciones</a></li>
+                <li class="Nada li"><a href="podcast.html" class="Menu">Podcast</a></li>
+                <li class="Nada li"><a href="aportes.html" class="Menu">Aportes</a></li>
+                <li class="Nada li"><a href="contacto.html" class="Menu">Contacto</a></li>
+
+            </ul>
+</div>
+</header>
+        <h1>Formulario de Contacto</h1>
+        
+        <form action="" class="TablaTipografia">
+        <fieldset> <br>
+                        <label for="nombre"> Nombre: </label> 
+                <input type="text"name="nombre"> <br> <br> </input>
+            <laber for="email"> Email:</laber>
+                <input type="email" name="email"> </input> <br> <br>
+                <div> Estudiante </div><input type="radio" name="estudiante" value="estudiante"></input> <br>
+                <div> Freelance</div> <input type="radio" name="estudiante" value="estudiante"> </input><br>
+                <div>Trabajo en dependencia </div> <input type="radio" name="estudiante" value="estudiante"></input> <br> <br>
+                    <legend> Dejanos tu consulta </legend>
+                    Información sobre: <select name="Info">
+                    <option value="cm">Community Manager</option>
+                    <option value="dg">Diseño gráfico</option>
+                    <option value="ux/ui">UX/UI</option>
+                    <option value="front end">Font End</option>
+                </select>  <br><br>
+                
+                Consulta: <br> <textarea name="comentario" cols="30" rows="10" > </textarea> <br>
+                <div> Acepta terminos y condiciones</div> 
+                <input type="checkbox" value="1"><br> <br>
+                <input type="submit" value="enviar"> 
+                        <input type="reset" value="deshacer"> 
+                    </fieldset>
+
+        </form>
+<br>
+<br>
+<footer class="Footer"> 
+    <a href="#arriba" class="arriba"><img  width="50px" height="50px" src="Imagenes/logo_labcreativo.png" alt="labcreativo"> </a>
+        <article>
+    <h3 class="titulofooter"> Newsletter</h3>
+    <form action="">
+    <label for="email"> Correo electrónico:</label>
+    <input type="email" placeholder="Tu correo electrónico"><br>
+    <input class="boton" type="submit" value="suscribirme">
+    </form>
+        </article>
+
+    <p class="copy">Copyright &copy; 2021 - desarrollado por: Dana Lihuen</p>
+
+
+
+</footer>
+</body>
+</html>
