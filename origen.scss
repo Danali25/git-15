@@ -1,0 +1,48 @@
+/* VARIABLES */ 
+@import "bem" ;
+@import "reset" ;
+@import "tipografia";
+
+$margen: 30px; 
+$font: 'roboto';
+$colorbg: #f5f2ef ;
+$colorbgbt: #e0552a;
+$colorbgul: #fbd8d5;
+$colorfooter: #9eaeda;
+$colortipo: #fafafa;
+
+html {
+    background-color: $colorbg;
+}
+
+main{
+    margin: $margen;
+    height: 300vh;
+}
+
+.Menu {
+    color: $font
+
+}
+
+//OPERACIONES
+
+$ancho: 720px;
+
+section {
+width: $ancho;
+    article { 
+        width: $ancho / 2; 
+    }
+    p { 
+        width: $ancho / 4; 
+    }
+}
+
+@for $margen from 1 through 4 {
+.margentodos#{$margen} {
+        margin: 30px *$margen;
+    }
+}
+
+@each 

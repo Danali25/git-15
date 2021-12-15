@@ -1,0 +1,17 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  padding: 15px;
+}
+
+div p {
+  font-size: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  width: 350 px/2;
+}
+/*# sourceMappingURL=origen.css.map */
