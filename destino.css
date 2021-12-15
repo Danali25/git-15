@@ -1,0 +1,13 @@
+/* VARIABLES */
+div {
+  width: 550px; }
+
+main {
+  margin: 30px;
+  height: 300vh; }
+
+.Lista {
+  font-family: 'roboto';
+  color: #fafafa;
+  width: 750px;
+  margin-left: 40px; }

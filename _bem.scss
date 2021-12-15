@@ -1,0 +1,55 @@
+/****** BEM ******/
+$colorbg: #f5f2ef ;
+$colorbgbt: #e0552a;
+$colorbgul: #fbd8d5;
+$colorfooter: #9eaeda;
+$colortipo: #fafafa;
+//menu
+
+.fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.fixed__Lista {
+    font-family: 'roboto';
+    color: #fafafa;
+    width: 750px;
+    margin-left: 40px;
+}
+
+.Lista__li {
+    position: relative;
+    display: inline-block ;
+    left: 550px;
+    top: -90px;
+    background-color: $colorbgbt;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Lista__SubMenu {
+    color: #e0552a;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 0px;
+}
+
+.pDashed{
+    border:solid 3px $colorfooter ;
+    padding: 10px;
+    margin:8px;
+}
+
+p {
+    font-family: 'roboto';
+    text-align: justify;
+    color:rgb(212, 148, 29);
+}
+
+.p__b{     font-family: 'roboto';
+    text-align: justify;
+    color:#424b64;
+}
+
